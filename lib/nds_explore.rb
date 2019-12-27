@@ -10,7 +10,7 @@ end
 def print_first_directors_movie_titles
   string = ""
   nds[:movies].each do |e|
-    string = string + "e[:title]"
+    string = string + " #{e[:title]}"
   end
   string
 end
