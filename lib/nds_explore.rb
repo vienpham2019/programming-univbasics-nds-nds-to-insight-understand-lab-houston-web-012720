@@ -8,9 +8,9 @@ def pretty_print_nds(nds)
   return pp(nds)
 end
 
-def print_first_directors_movie_titles(nds)
+def print_first_directors_movie_titles
   string = ""
-  nds[0][:movies].each do |e|
+  nds[:movies].each do |e|
     e[:title]
   end
   string.strip
